@@ -8,5 +8,6 @@ go:
 
 
 script:
+ - echo "test" >> README.md
  - go test -v ./...
  - cat ~/.gitconfig
