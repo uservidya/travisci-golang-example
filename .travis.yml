@@ -6,7 +6,6 @@ go:
  #- tip
 
 
-
 script:
  - echo "test" >> README.md
  - go test -v ./...
